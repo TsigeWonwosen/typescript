@@ -54,6 +54,8 @@ type Todo = {
   readonly done: boolean
 }
 
+// Readonly <...>  makes each property readonly
+
 let todo : Todo = {
   id:1,
   text:"take exam",
