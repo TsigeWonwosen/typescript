@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "ext": "tsc --watch first-ts.ts",
+    "ext": "tsc --watch ",
     "start": "npm run ext && nodemon first-ts.js "
   },
   "keywords": [],
